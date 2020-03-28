@@ -14,7 +14,6 @@ setup(
     include_package_data=True,
     download_url='https://github.com/jitender0514/djnago-rename/archive/0.1.tar.gz',
     url='https://github.com/jitender0514/djnago-rename',
-    packages=find_packages(),
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
