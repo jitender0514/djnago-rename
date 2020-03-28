@@ -7,13 +7,11 @@ class Command(BaseCommand):
 
     def add_arguments(self, parser):
         # new name of the project
-        parser.add_argument('new_project_name', nargs=1, type=str, required=True, help="The new project name (String)")
+        parser.add_argument('new_project_name', type=str, help="The new project name (String)")
         # current name of the project
         parser.add_argument('--current_name',
                             default='boilerplate',
-                            nargs=1,
                             type=str,
-                            required=False,
                             help="The current project name (String)")
 
     def handle(self, *args, **options):
