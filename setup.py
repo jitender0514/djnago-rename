@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 import rename_project
 
-
+	
 setup(
     name='rename_project',
     packages=find_packages(),
@@ -12,7 +12,7 @@ setup(
     author='Jitender Singh',
     author_email='jitender0514@gmail.com',
     include_package_data=True,
-    download_url='https://github.com/jitender0514/djnago-rename/archive/0.1.tar.gz',
+    download_url='https://github.com/jitender0514/djnago-rename/archive/{}.tar.gz'.format(rename_project.__version__),
     url='https://github.com/jitender0514/djnago-rename',
     classifiers=[
         'Development Status :: 4 - Beta',
