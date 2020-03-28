@@ -5,7 +5,7 @@ import rename_project
 
 setup(
     name='rename_project',
-    packages = ['rename_project'], 
+    packages=find_packages(),
     license='BSD',
     version=rename_project.__version__,
     description='RenameProject is a Django app to renaming the project of boilerplate',
