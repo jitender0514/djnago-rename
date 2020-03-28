@@ -1,8 +1,8 @@
 ==============
-Rename Project
+Project Rename
 ==============
 
-RenameProject is a Django app to renaming the project of [boilerplate](https://github.com/jitender0514/django-boilerplate).
+ProjectRename is a Django app to renaming the project of [boilerplate](https://github.com/jitender0514/django-boilerplate).
 
 (Settings files name and strucure should be the same)
 
@@ -19,7 +19,7 @@ Quick start
 
     INSTALLED_APPS = [
         ...
-        'rename_project',
+        'project_rename',
     ]
 
 3. Run ``python manage.py rename <New ProjectName>`` to rename the project.
